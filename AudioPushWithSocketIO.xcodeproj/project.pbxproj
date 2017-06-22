@@ -16,6 +16,7 @@
 		7321EBA41EFC10C9000D719F /* AudioPushWithSocketIOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321EBA31EFC10C9000D719F /* AudioPushWithSocketIOTests.swift */; };
 		7321EBAF1EFC10C9000D719F /* AudioPushWithSocketIOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321EBAE1EFC10C9000D719F /* AudioPushWithSocketIOUITests.swift */; };
 		7321EBBF1EFC180B000D719F /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7321EBBE1EFC180B000D719F /* Config.swift */; };
+		B7C409613FCA809E447CCA49 /* Pods_AudioPushWithSocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2B51E15D15629C35A49C95 /* Pods_AudioPushWithSocketIO.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1544D3C2F71A49611D610607 /* Pods_AudioPushWithSocketIOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E3E84D98008423C4914DB70 /* Pods_AudioPushWithSocketIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		344B39C46EB8BD27EFA5DA53 /* Pods-AudioPushWithSocketIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPushWithSocketIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPushWithSocketIO/Pods-AudioPushWithSocketIO.debug.xcconfig"; sourceTree = "<group>"; };
 		5F815A676C970A367811B5F7 /* Pods_AudioPushWithSocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7321EB8B1EFC10C9000D719F /* AudioPushWithSocketIO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioPushWithSocketIO.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +55,11 @@
 		7321EBAE1EFC10C9000D719F /* AudioPushWithSocketIOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AudioPushWithSocketIOUITests.swift; path = AudioPushWithSocketIOUITests/AudioPushWithSocketIOUITests.swift; sourceTree = "<group>"; };
 		7321EBB01EFC10C9000D719F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = AudioPushWithSocketIOUITests/Info.plist; sourceTree = "<group>"; };
 		7321EBBE1EFC180B000D719F /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		8AAC1618B16152892FC6B07E /* Pods-AudioPushWithSocketIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPushWithSocketIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPushWithSocketIO/Pods-AudioPushWithSocketIO.release.xcconfig"; sourceTree = "<group>"; };
 		9DCD965EC1169E969F79E6B1 /* Pods_AudioPushWithSocketIOUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIOUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A831388F8437E0D396DF01D0 /* Pods-AudioPushWithSocketIO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPushWithSocketIO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPushWithSocketIO/Pods-AudioPushWithSocketIO.debug.xcconfig"; sourceTree = "<group>"; };
 		B2999E1A055E06579B800DA8 /* Pods_AudioPushWithSocketIOTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIOTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB2B51E15D15629C35A49C95 /* Pods_AudioPushWithSocketIO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudioPushWithSocketIO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2C1950C19312EF623988D01 /* Pods-AudioPushWithSocketIO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudioPushWithSocketIO.release.xcconfig"; path = "Pods/Target Support Files/Pods-AudioPushWithSocketIO/Pods-AudioPushWithSocketIO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -63,6 +69,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E52952B1242044658E765E3 /* Pods_AudioPushWithSocketIO.framework in Frameworks */,
+				B7C409613FCA809E447CCA49 /* Pods_AudioPushWithSocketIO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,12 +97,23 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		318A41F90A002E2A66E569BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A831388F8437E0D396DF01D0 /* Pods-AudioPushWithSocketIO.debug.xcconfig */,
+				8AAC1618B16152892FC6B07E /* Pods-AudioPushWithSocketIO.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7321EB821EFC10C8000D719F = {
 			isa = PBXGroup;
 			children = (
 				7321EB8D1EFC10C9000D719F /* AudioPushWithSocketIO */,
 				7321EBBC1EFC14B0000D719F /* Supporting */,
 				7321EBBD1EFC150F000D719F /* Working folders */,
+				318A41F90A002E2A66E569BE /* Pods */,
+				C21E38367FFF816AD0844C0C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,6 +186,16 @@
 				5F815A676C970A367811B5F7 /* Pods_AudioPushWithSocketIO.framework */,
 				B2999E1A055E06579B800DA8 /* Pods_AudioPushWithSocketIOTests.framework */,
 				9DCD965EC1169E969F79E6B1 /* Pods_AudioPushWithSocketIOUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C21E38367FFF816AD0844C0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB2B51E15D15629C35A49C95 /* Pods_AudioPushWithSocketIO.framework */,
+				2E3E84D98008423C4914DB70 /* Pods_AudioPushWithSocketIOTests.framework */,
+				1544D3C2F71A49611D610607 /* Pods_AudioPushWithSocketIOUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
