@@ -1,11 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="I3c-ZD-FPU">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Send Voice View Controller-->
+        <scene sceneID="XU6-EM-tQL">
+            <objects>
+                <viewController id="I3c-ZD-FPU" customClass="SendVoiceViewController" customModule="AudioPushWithSocketIO" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IFn-kC-bw6"/>
+                        <viewControllerLayoutGuide type="bottom" id="N5I-U6-3qz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y6M-vG-IYC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Fh-IX-aT0">
+                                <rect key="frame" x="149" y="537" width="77" height="30"/>
+                                <state key="normal" title="Send audio"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N5I-U6-3qz" firstAttribute="top" secondItem="3Fh-IX-aT0" secondAttribute="bottom" constant="100" id="jGC-uh-smq"/>
+                            <constraint firstItem="3Fh-IX-aT0" firstAttribute="centerX" secondItem="y6M-vG-IYC" secondAttribute="centerX" id="tsO-SG-Bsx"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jxP-dF-T8h" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3279" y="-999"/>
+        </scene>
+    </scenes>
 </document>
